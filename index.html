@@ -131,7 +131,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 0 5%;
+            padding: 100px 5% 0 5%;
             position: relative;
         }
 
@@ -496,6 +496,10 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .hero {
+                padding-top: 120px;
+            }
+
             .glitch {
                 font-size: 3rem;
             }
@@ -844,6 +848,30 @@
                 </div>
             </div>
         </div>
+
+        <!-- Current Work Section -->
+        <div style="margin-top: 5rem; padding: 3rem; background: rgba(10, 14, 39, 0.6); border: 2px solid var(--accent); position: relative; overflow: hidden;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255, 0, 110, 0.05), rgba(0, 255, 159, 0.05)); z-index: -1;"></div>
+            <h3 style="font-family: 'Orbitron', sans-serif; font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">
+                 Currently Building
+            </h3>
+            <h4 style="font-family: 'Orbitron', sans-serif; font-size: 1.8rem; color: var(--primary); margin-bottom: 1rem;">
+                MiraiQ
+            </h4>
+            <p style="color: var(--text); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                An innovative AI platform focused on intelligent automation and edge AI solutions. Building the future of AI-powered systems with cutting-edge LLM integration, RAG architectures, and production-ready deployment strategies.
+            </p>
+            <div class="skill-tags">
+                <span class="tag">LLMs</span>
+                <span class="tag">Edge AI</span>
+                <span class="tag">RAG</span>
+                <span class="tag">AI Agents</span>
+                <span class="tag">MLOps</span>
+            </div>
+            <p style="color: var(--accent); font-weight: 600; margin-top: 1.5rem; font-size: 1rem;">
+                ⚡ Coming Soon | Stay Tuned
+            </p>
+        </div>
     </section>
 
     <!-- Contact Section -->
@@ -863,7 +891,7 @@
                     <div class="contact-icon">📧</div>
                     <div>
                         <p style="color: var(--text-dim); font-size: 0.9rem;">Email</p>
-                        <a href="mailto:kaninpino1000@gmail.com" style="color: var(--primary); text-decoration: none;">kaninpino1000@gmail.com</a>
+                        <a href="/cdn-cgi/l/email-protection#117a707f787f61787f7e2021212151767c70787d3f727e7c" style="color: var(--primary); text-decoration: none;"><span class="__cf_email__" data-cfemail="ed868c8384839d848382dcddddddad8a808c8481c38e8280">[email&#160;protected]</span></a>
                     </div>
                 </div>
 
@@ -919,7 +947,7 @@
         </p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -934,11 +962,4 @@
         // Scroll animations
         const observerOptions = {
             threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.t
+            rootMargin: '0px 0px -1
